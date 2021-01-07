@@ -8,7 +8,7 @@ info:
 servers:
   - url: 'http://api.banco.com.br/open-banking/discovery/v1'
 tags:
-- name: "Discovery"
+  - name: "Discovery"
 paths:
   /status:
     get:
@@ -46,15 +46,15 @@ paths:
                 $ref: '#/components/schemas/ResponseDiscoveryOutageList'
 components:
   schemas:
-    ResponseDiscoveryStatusList:
-      $ref: "./schemas/ResponseDiscoveryStatusList.yaml"
-    ResponseDiscoveryOutageList:
-      $ref: "./schemas/ResponseDiscoveryOutageList.yaml"
     Links:
-      $ref: "./schemas/Links.yaml"
+      $ref: ./schemas/Links.yaml
     Meta:
-      $ref: "./schemas/Meta.yaml"
+      $ref: ./schemas/Meta.yaml
+    ResponseDiscoveryOutageList:
+      $ref: ./schemas/ResponseDiscoveryOutageList.yaml
+    ResponseDiscoveryStatusList:
+      $ref: ./schemas/ResponseDiscoveryStatusList.yaml
     Status:
-      $ref: "./schemas/Status.yaml"
+      $ref: ./schemas/Status.yaml
   parameters:
     $ref: "./schemas/parameters.yaml"

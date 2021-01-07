@@ -221,214 +221,214 @@ paths:
                 $ref: '#/components/schemas/ResponseBusinessUnarrangedAccountOverdraft'
 components:
   schemas:
-    AccountsTermsConditions:
-      $ref: "./schemas/ResponsePersonalAccounts.yaml"
-    ResponsePersonalAccounts:
-      $ref: "./schemas/ResponsePersonalAccounts.yaml"
-    PersonalAccountBrand:
-      $ref: "./schemas/PersonalAccountBrand.yaml"
-    PersonalAccountCompany:
-      $ref: "./schemas/PersonalAccountCompany.yaml"
-    PersonalAccount:
-      $ref: "./schemas/PersonalAccount.yaml"
     AccountFee:
-      $ref: "./schemas/AccountFee.yaml"
-    AccountPriorityService:
-      $ref: "./schemas/AccountPriorityService.yaml"
-    AccountType:
-      $ref: "./schemas/AccountType.yaml"
-    OpeningClosingChannels:
-      $ref: "./schemas/OpeningClosingChannels.yaml"
-    TransactionMethods:
-      $ref: "./schemas/TransactionMethods.yaml"
-    PriorityServiceName:
-      $ref: "./schemas/PriorityServiceName.yaml"
+      $ref: ./schemas/AccountFee.yaml
     AccountOtherService:
-      $ref: "./schemas/AccountOtherService.yaml"
+      $ref: ./schemas/AccountOtherService.yaml
+    AccountPriorityService:
+      $ref: ./schemas/AccountPriorityService.yaml
     AccountPriorityServiceCode:
-      $ref: "./schemas/AccountPriorityServiceCode.yaml"
-    ServiceBundle:
-      $ref: "./schemas/ServiceBundle.yaml"
-    ServiceBundleServiceDetail:
-      $ref: "./schemas/ServiceBundleServiceDetail.yaml"
+      $ref: ./schemas/AccountPriorityServiceCode.yaml
+    AccountType:
+      $ref: ./schemas/AccountType.yaml
     AccountsIncomeRate:
-      $ref: "./schemas/AccountsIncomeRate.yaml"
-    ResponseBusinessAccounts:
-      $ref: "./schemas/ResponseBusinessAccounts.yaml"
-    BusinessAccountsBrand:
-      $ref: "./schemas/BusinessAccountsCompany.yaml"
-    BusinessAccountsCompany:
-      $ref: "./schemas/BusinessAccountsCompany.yaml"
-    BusinessAccounts:
-      $ref: "./schemas/BusinessAccounts.yaml"
-    BusinessAccountsService:
-      $ref: "./schemas/BusinessAccountsService.yaml"
-    ResponsePersonalLoans:
-      $ref: "./schemas/ResponsePersonalLoans.yaml"
-    PersonalLoanBrand:
-      $ref: "./schemas/PersonalLoanBrand.yaml"
-    PersonalLoanCompany:
-      $ref: "./schemas/PersonalLoanCompany.yaml"
-    ResponseBusinessLoans:
-      $ref: "./schemas/ResponseBusinessLoans.yaml"
-    BusinessLoanBrand:
-      $ref: "./schemas/BusinessLoanBrand.yaml"
-    BusinessLoanCompany:
-      $ref: "./schemas/BusinessLoanCompany.yaml"
-    PersonalLoan:
-      $ref: "./schemas/PersonalLoan.yaml"
-    BusinessLoan:
-      $ref: "./schemas/BusinessLoan.yaml"
-    LoanFees:
-      $ref: "./schemas/LoanFees.yaml"
-    LoanService:
-      $ref: "./schemas/LoanService.yaml"
-    LoanInterestRate:
-      $ref: "./schemas/LoanInterestRate.yaml"
-    ApplicationRate:
-      $ref: "./schemas/ApplicationRate.yaml"
-    Indexer:
-      $ref: "./schemas/Indexer.yaml"
-    InterestRateFee:
-      $ref: "./schemas/InterestRateFee.yaml"
-    PriceIntervals:
-      $ref: "./schemas/PriceIntervals.yaml"
+      $ref: ./schemas/AccountsIncomeRate.yaml
+    AccountsTermsConditions:
+      $ref: ./schemas/ResponsePersonalAccounts.yaml
     ApplicationIntervals:
-      $ref: "./schemas/ApplicationIntervals.yaml"
-    RequiredWarranty:
-      $ref: "./schemas/RequiredWarranty.yaml"
-    CreditCardIdentification:
-      $ref: "./schemas/CreditCardIdentification.yaml"
-    CreditCardRewardsProgram:
-      $ref: "./schemas/CreditCardTermsConditions.yaml"
-    CreditCardTermsConditions:
-      $ref: "./schemas/CreditCardTermsConditions.yaml"
-    CreditCardInterest:
-      $ref: "./schemas/CreditCardInterest.yaml"
-    CreditCardInterestRate:
-      $ref: "./schemas/CreditCardInterestRate.yaml"
-    PersonalCreditCardResponse:
-      $ref: "./schemas/PersonalCreditCardBrand.yaml"
-    PersonalCreditCardBrand:
-      $ref: "./schemas/PersonalCreditCardBrand.yaml"
-    PersonalCreditCardCompany:
-      $ref: "./schemas/PersonalCreditCardCompany.yaml"
-    BusinessCreditCardResponse:
-      $ref: "./schemas/BusinessCreditCardResponse.yaml"
-    BusinessCreditCardBrand:
-      $ref: "./schemas/BusinessCreditCardBrand.yaml"
-    BusinessCreditCardCompany:
-      $ref: "./schemas/BusinessCreditCardCompany.yaml"
-    CreditCardService:
-      $ref: "./schemas/CreditCardService.yaml"
-    ResponsePersonalFinancings:
-      $ref: "./schemas/ResponsePersonalFinancings.yaml"
-    PersonalFinancingBrand:
-      $ref: "./schemas/PersonalFinancingBrand.yaml"
-    PersonalFinancingCompany:
-      $ref: "./schemas/PersonalFinancingCompany.yaml"
-    PersonalFinancing:
-      $ref: "./schemas/PersonalFinancing.yaml"
-    PersonalFinancingFee:
-      $ref: "./schemas/PersonalFinancingFee.yaml"
-    FinancingService:
-      $ref: "./schemas/FinancingService.yaml"
-    FinancingInterestRate:
-      $ref: "./schemas/FinancingInterestRate.yaml"
-    ResponseBusinessFinancings:
-      $ref: "./schemas/ResponseBusinessFinancings.yaml"
-    BusinessFinancingBrand:
-      $ref: "./schemas/BusinessFinancingBrand.yaml"
-    BusinessFinancingCompany:
-      $ref: "./schemas/BusinessFinancingCompany.yaml"
-    BusinessFinancing:
-      $ref: "./schemas/BusinessFinancingFee.yaml"
-    BusinessFinancingFee:
-      $ref: "./schemas/BusinessFinancingFee.yaml"
-    ResponsePersonalInvoiceFinancings:
-      $ref: "./schemas/ResponsePersonalInvoiceFinancings.yaml"
-    PersonalInvoiceFinancingsBrand:
-      $ref: "./schemas/PersonalInvoiceFinancingsBrand.yaml"
-    PersonalInvoiceFinancingsCompanies:
-      $ref: "./schemas/PersonalInvoiceFinancingsCompanies.yaml"
-    PersonalInvoiceFinancings:
-      $ref: "./schemas/PersonalInvoiceFinancings.yaml"
-    PersonalInvoiceFinancingsFees:
-      $ref: "./schemas/PersonalInvoiceFinancingsFees.yaml"
-    InvoiceFinancingsService:
-      $ref: "./schemas/InvoiceFinancingsService.yaml"
-    PersonalInvoiceFinancingsInterestRates:
-      $ref: "./schemas/PersonalInvoiceFinancingsInterestRates.yaml"
-    ResponseBusinessInvoiceFinancings:
-      $ref: "./schemas/ResponseBusinessInvoiceFinancings.yaml"
-    BusinessInvoiceFinancingsBrand:
-      $ref: "./schemas/BusinessInvoiceFinancingsBrand.yaml"
-    BusinessInvoiceFinancingsCompanies:
-      $ref: "./schemas/BusinessInvoiceFinancingsCompanies.yaml"
-    BusinessInvoiceFinancings:
-      $ref: "./schemas/BusinessInvoiceFinancings.yaml"
-    BusinessInvoiceFinancingsFees:
-      $ref: "./schemas/BusinessInvoiceFinancingsFees.yaml"
-    BusinessInvoiceFinancingsInterestRates:
-      $ref: "./schemas/BusinessInvoiceFinancingsInterestRates.yaml"
-    ResponseBusinessUnarrangedAccountOverdraft:
-      $ref: "./schemas/ResponseBusinessUnarrangedAccountOverdraft.yaml"
-    BusinessUnarrangedAccountOverdraftBrand:
-      $ref: "./schemas/BusinessUnarrangedAccountOverdraftBrand.yaml"
-    BusinessUnarrangedAccountOverdraftCompany:
-      $ref: "./schemas/BusinessUnarrangedAccountOverdraftCompany.yaml"
-    BusinessUnarrangedAccountOverdraft:
-      $ref: "./schemas/BusinessUnarrangedAccountOverdraft.yaml"
-    BusinessUnarrangedAccountOverdraftFee:
-      $ref: "./schemas/BusinessUnarrangedAccountOverdraftFee.yaml"
-    UnarrangedAccountOverdraftService:
-      $ref: "./schemas/UnarrangedAccountOverdraftService.yaml"
-    UnarrangedAccountOverdraftRate:
-      $ref: "./schemas/UnarrangedAccountOverdraftRate.yaml"
-    FeeReferentialRateIndexer:
-      $ref: "./schemas/FeeReferentialRateIndexer.yaml"
-    ResponsePersonalUnarrangedAccountOverdraft:
-      $ref: "./schemas/ResponsePersonalUnarrangedAccountOverdraft.yaml"
-    PersonalUnarrangedAccountOverdraftBrand:
-      $ref: "./schemas/PersonalUnarrangedAccountOverdraftBrand.yaml"
-    PersonalUnarrangedAccountOverdraftCompany:
-      $ref: "./schemas/PersonalUnarrangedAccountOverdraftCompany.yaml"
-    PersonalUnarrangedAccountOverdraft:
-      $ref: "./schemas/PersonalUnarrangedAccountOverdraft.yaml"
-    PersonalUnarrangedAccountOverdraftFee:
-      $ref: "./schemas/PersonalUnarrangedAccountOverdraftFee.yaml"
-    Price:
-      $ref: "./schemas/Price.yaml"
-    MonthlyPrice:
-      $ref: "./schemas/MonthlyPrice.yaml"
-    MinimumPrice:
-      $ref: "./schemas/MinimumPrice.yaml"
-    MaximumPrice:
-      $ref: "./schemas/MaximumPrice.yaml"
-    Customer:
-      $ref: "./schemas/Customer.yaml"
-    MinimumBalance:
-      $ref: "./schemas/MinimumBalance.yaml"
-    Currency:
-      $ref: "./schemas/Currency.yaml"
-    InterestRate:
-      $ref: "./schemas/InterestRate.yaml"
-    ReferentialRateIndexer:
-      $ref: "./schemas/ReferentialRateIndexer.yaml"
-    PersonalCreditCard:
-      $ref: "./schemas/PersonalCreditCard.yaml"
-    BusinessCreditCard:
-      $ref: "./schemas/BusinessCreditCard.yaml"
+      $ref: ./schemas/ApplicationIntervals.yaml
+    ApplicationRate:
+      $ref: ./schemas/ApplicationRate.yaml
     Brand:
-      $ref: "./schemas/Brand.yaml"
-    Company:
-      $ref: "./schemas/Company.yaml"
+      $ref: ./schemas/Brand.yaml
+    BusinessAccounts:
+      $ref: ./schemas/BusinessAccounts.yaml
+    BusinessAccountsBrand:
+      $ref: ./schemas/BusinessAccountsCompany.yaml
+    BusinessAccountsCompany:
+      $ref: ./schemas/BusinessAccountsCompany.yaml
+    BusinessAccountsService:
+      $ref: ./schemas/BusinessAccountsService.yaml
+    BusinessCreditCard:
+      $ref: ./schemas/BusinessCreditCard.yaml
+    BusinessCreditCardBrand:
+      $ref: ./schemas/BusinessCreditCardBrand.yaml
+    BusinessCreditCardCompany:
+      $ref: ./schemas/BusinessCreditCardCompany.yaml
+    BusinessCreditCardResponse:
+      $ref: ./schemas/BusinessCreditCardResponse.yaml
+    BusinessFinancing:
+      $ref: ./schemas/BusinessFinancingFee.yaml
+    BusinessFinancingBrand:
+      $ref: ./schemas/BusinessFinancingBrand.yaml
+    BusinessFinancingCompany:
+      $ref: ./schemas/BusinessFinancingCompany.yaml
+    BusinessFinancingFee:
+      $ref: ./schemas/BusinessFinancingFee.yaml
+    BusinessInvoiceFinancings:
+      $ref: ./schemas/BusinessInvoiceFinancings.yaml
+    BusinessInvoiceFinancingsBrand:
+      $ref: ./schemas/BusinessInvoiceFinancingsBrand.yaml
+    BusinessInvoiceFinancingsCompanies:
+      $ref: ./schemas/BusinessInvoiceFinancingsCompanies.yaml
+    BusinessInvoiceFinancingsFees:
+      $ref: ./schemas/BusinessInvoiceFinancingsFees.yaml
+    BusinessInvoiceFinancingsInterestRates:
+      $ref: ./schemas/BusinessInvoiceFinancingsInterestRates.yaml
+    BusinessLoan:
+      $ref: ./schemas/BusinessLoan.yaml
+    BusinessLoanBrand:
+      $ref: ./schemas/BusinessLoanBrand.yaml
+    BusinessLoanCompany:
+      $ref: ./schemas/BusinessLoanCompany.yaml
+    BusinessUnarrangedAccountOverdraft:
+      $ref: ./schemas/BusinessUnarrangedAccountOverdraft.yaml
+    BusinessUnarrangedAccountOverdraftBrand:
+      $ref: ./schemas/BusinessUnarrangedAccountOverdraftBrand.yaml
+    BusinessUnarrangedAccountOverdraftCompany:
+      $ref: ./schemas/BusinessUnarrangedAccountOverdraftCompany.yaml
+    BusinessUnarrangedAccountOverdraftFee:
+      $ref: ./schemas/BusinessUnarrangedAccountOverdraftFee.yaml
     CNPJ:
-      $ref: "./schemas/Links.yaml"
+      $ref: ./schemas/Links.yaml
+    Company:
+      $ref: ./schemas/Company.yaml
+    CreditCardIdentification:
+      $ref: ./schemas/CreditCardIdentification.yaml
+    CreditCardInterest:
+      $ref: ./schemas/CreditCardInterest.yaml
+    CreditCardInterestRate:
+      $ref: ./schemas/CreditCardInterestRate.yaml
+    CreditCardRewardsProgram:
+      $ref: ./schemas/CreditCardTermsConditions.yaml
+    CreditCardService:
+      $ref: ./schemas/CreditCardService.yaml
+    CreditCardTermsConditions:
+      $ref: ./schemas/CreditCardTermsConditions.yaml
+    Currency:
+      $ref: ./schemas/Currency.yaml
+    Customer:
+      $ref: ./schemas/Customer.yaml
+    FeeReferentialRateIndexer:
+      $ref: ./schemas/FeeReferentialRateIndexer.yaml
+    FinancingInterestRate:
+      $ref: ./schemas/FinancingInterestRate.yaml
+    FinancingService:
+      $ref: ./schemas/FinancingService.yaml
+    Indexer:
+      $ref: ./schemas/Indexer.yaml
+    InterestRate:
+      $ref: ./schemas/InterestRate.yaml
+    InterestRateFee:
+      $ref: ./schemas/InterestRateFee.yaml
+    InvoiceFinancingsService:
+      $ref: ./schemas/InvoiceFinancingsService.yaml
     Links:
-      $ref: "./schemas/Links.yaml"
+      $ref: ./schemas/Links.yaml
+    LoanFees:
+      $ref: ./schemas/LoanFees.yaml
+    LoanInterestRate:
+      $ref: ./schemas/LoanInterestRate.yaml
+    LoanService:
+      $ref: ./schemas/LoanService.yaml
+    MaximumPrice:
+      $ref: ./schemas/MaximumPrice.yaml
     Meta:
-      $ref: "./schemas/Meta.yaml"
+      $ref: ./schemas/Meta.yaml
+    MinimumBalance:
+      $ref: ./schemas/MinimumBalance.yaml
+    MinimumPrice:
+      $ref: ./schemas/MinimumPrice.yaml
+    MonthlyPrice:
+      $ref: ./schemas/MonthlyPrice.yaml
+    OpeningClosingChannels:
+      $ref: ./schemas/OpeningClosingChannels.yaml
+    PersonalAccount:
+      $ref: ./schemas/PersonalAccount.yaml
+    PersonalAccountBrand:
+      $ref: ./schemas/PersonalAccountBrand.yaml
+    PersonalAccountCompany:
+      $ref: ./schemas/PersonalAccountCompany.yaml
+    PersonalCreditCard:
+      $ref: ./schemas/PersonalCreditCard.yaml
+    PersonalCreditCardBrand:
+      $ref: ./schemas/PersonalCreditCardBrand.yaml
+    PersonalCreditCardCompany:
+      $ref: ./schemas/PersonalCreditCardCompany.yaml
+    PersonalCreditCardResponse:
+      $ref: ./schemas/PersonalCreditCardBrand.yaml
+    PersonalFinancing:
+      $ref: ./schemas/PersonalFinancing.yaml
+    PersonalFinancingBrand:
+      $ref: ./schemas/PersonalFinancingBrand.yaml
+    PersonalFinancingCompany:
+      $ref: ./schemas/PersonalFinancingCompany.yaml
+    PersonalFinancingFee:
+      $ref: ./schemas/PersonalFinancingFee.yaml
+    PersonalInvoiceFinancings:
+      $ref: ./schemas/PersonalInvoiceFinancings.yaml
+    PersonalInvoiceFinancingsBrand:
+      $ref: ./schemas/PersonalInvoiceFinancingsBrand.yaml
+    PersonalInvoiceFinancingsCompanies:
+      $ref: ./schemas/PersonalInvoiceFinancingsCompanies.yaml
+    PersonalInvoiceFinancingsFees:
+      $ref: ./schemas/PersonalInvoiceFinancingsFees.yaml
+    PersonalInvoiceFinancingsInterestRates:
+      $ref: ./schemas/PersonalInvoiceFinancingsInterestRates.yaml
+    PersonalLoan:
+      $ref: ./schemas/PersonalLoan.yaml
+    PersonalLoanBrand:
+      $ref: ./schemas/PersonalLoanBrand.yaml
+    PersonalLoanCompany:
+      $ref: ./schemas/PersonalLoanCompany.yaml
+    PersonalUnarrangedAccountOverdraft:
+      $ref: ./schemas/PersonalUnarrangedAccountOverdraft.yaml
+    PersonalUnarrangedAccountOverdraftBrand:
+      $ref: ./schemas/PersonalUnarrangedAccountOverdraftBrand.yaml
+    PersonalUnarrangedAccountOverdraftCompany:
+      $ref: ./schemas/PersonalUnarrangedAccountOverdraftCompany.yaml
+    PersonalUnarrangedAccountOverdraftFee:
+      $ref: ./schemas/PersonalUnarrangedAccountOverdraftFee.yaml
+    Price:
+      $ref: ./schemas/Price.yaml
+    PriceIntervals:
+      $ref: ./schemas/PriceIntervals.yaml
+    PriorityServiceName:
+      $ref: ./schemas/PriorityServiceName.yaml
+    ReferentialRateIndexer:
+      $ref: ./schemas/ReferentialRateIndexer.yaml
+    RequiredWarranty:
+      $ref: ./schemas/RequiredWarranty.yaml
+    ResponseBusinessAccounts:
+      $ref: ./schemas/ResponseBusinessAccounts.yaml
+    ResponseBusinessFinancings:
+      $ref: ./schemas/ResponseBusinessFinancings.yaml
+    ResponseBusinessInvoiceFinancings:
+      $ref: ./schemas/ResponseBusinessInvoiceFinancings.yaml
+    ResponseBusinessLoans:
+      $ref: ./schemas/ResponseBusinessLoans.yaml
+    ResponseBusinessUnarrangedAccountOverdraft:
+      $ref: ./schemas/ResponseBusinessUnarrangedAccountOverdraft.yaml
+    ResponsePersonalAccounts:
+      $ref: ./schemas/ResponsePersonalAccounts.yaml
+    ResponsePersonalFinancings:
+      $ref: ./schemas/ResponsePersonalFinancings.yaml
+    ResponsePersonalInvoiceFinancings:
+      $ref: ./schemas/ResponsePersonalInvoiceFinancings.yaml
+    ResponsePersonalLoans:
+      $ref: ./schemas/ResponsePersonalLoans.yaml
+    ResponsePersonalUnarrangedAccountOverdraft:
+      $ref: ./schemas/ResponsePersonalUnarrangedAccountOverdraft.yaml
+    ServiceBundle:
+      $ref: ./schemas/ServiceBundle.yaml
+    ServiceBundleServiceDetail:
+      $ref: ./schemas/ServiceBundleServiceDetail.yaml
+    TransactionMethods:
+      $ref: ./schemas/TransactionMethods.yaml
+    UnarrangedAccountOverdraftRate:
+      $ref: ./schemas/UnarrangedAccountOverdraftRate.yaml
+    UnarrangedAccountOverdraftService:
+      $ref: ./schemas/UnarrangedAccountOverdraftService.yaml
   securitySchemes:
     $ref: "./schemas/securitySchemes.yaml"
   parameters:

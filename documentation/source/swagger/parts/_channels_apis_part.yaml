@@ -98,103 +98,103 @@ paths:
                 $ref: '#/components/schemas/ResponseSharedAutomatedTellerMachinesList'
 components:
   schemas:
-    ResponseBankingAgentsList:
-      $ref: "./schemas/ResponseBankingAgentsList.yaml"
-    BankingAgentsBrand:
-      $ref: "./schemas/BankingAgentsBrand.yaml"
-    BankingAgentsCompanies:
-      $ref: "./schemas/BankingAgentsCompanies.yaml"
-    BankingAgentsContractor:
-      $ref: "./schemas/BankingAgentsContractor.yaml"
-    ResponseBranchesList:
-      $ref: "./schemas/ResponseBranchesList.yaml"
-    BranchesBrand:
-      $ref: "./schemas/BranchesBrand.yaml"
-    BranchesCompany:
-      $ref: "./schemas/BranchesCompany.yaml"
-    ResponseElectronicChannelsList:
-      $ref: "./schemas/ResponseElectronicChannelsList.yaml"
-    ElectronicChannelsBrand:
-      $ref: "./schemas/ElectronicChannelsBrand.yaml"
-    ElectronicChannelsCompanies:
-      $ref: "./schemas/ElectronicChannelsCompanies.yaml"
     BankingAgent:
-      $ref: "./schemas/BankingAgent.yaml"
-    BankingAgentIdentification:
-      $ref: "./schemas/BankingAgentIdentification.yaml"
-    BankingAgentLocation:
-      $ref: "./schemas/BankingAgentLocation.yaml"
-    BankingAgentPostalAddress:
-      $ref: "./schemas/BankingAgentPostalAddress.yaml"
+      $ref: ./schemas/BankingAgent.yaml
     BankingAgentAvailability:
-      $ref: "./schemas/BankingAgentAvailability.yaml"
+      $ref: ./schemas/BankingAgentAvailability.yaml
+    BankingAgentIdentification:
+      $ref: ./schemas/BankingAgentIdentification.yaml
+    BankingAgentLocation:
+      $ref: ./schemas/BankingAgentLocation.yaml
+    BankingAgentPostalAddress:
+      $ref: ./schemas/BankingAgentPostalAddress.yaml
     BankingAgentService:
-      $ref: "./schemas/BankingAgentService.yaml"
+      $ref: ./schemas/BankingAgentService.yaml
+    BankingAgentsBrand:
+      $ref: ./schemas/BankingAgentsBrand.yaml
+    BankingAgentsCompanies:
+      $ref: ./schemas/BankingAgentsCompanies.yaml
+    BankingAgentsContractor:
+      $ref: ./schemas/BankingAgentsContractor.yaml
     Branch:
-      $ref: "./schemas/Branch.yaml"
-    BranchPostalAddress:
-      $ref: "./schemas/BranchPostalAddress.yaml"
-    BranchPhone:
-      $ref: "./schemas/BranchPhone.yaml"
-    BranchIdentification:
-      $ref: "./schemas/BranchIdentification.yaml"
+      $ref: ./schemas/Branch.yaml
     BranchAvailability:
-      $ref: "./schemas/BranchAvailability.yaml"
+      $ref: ./schemas/BranchAvailability.yaml
+    BranchIdentification:
+      $ref: ./schemas/BranchIdentification.yaml
+    BranchPhone:
+      $ref: ./schemas/BranchPhone.yaml
+    BranchPostalAddress:
+      $ref: ./schemas/BranchPostalAddress.yaml
     BranchService:
-      $ref: "./schemas/BranchService.yaml"
-    ElectronicChannel:
-      $ref: "./schemas/ElectronicChannel.yaml"
-    ElectronicChannelIdentification:
-      $ref: "./schemas/ElectronicChannelIdentification.yaml"
-    ElectronicChannelUrl:
-      $ref: "./schemas/ElectronicChannelUrl.yaml"
-    ElectronicChannelService:
-      $ref: "./schemas/ElectronicChannelService.yaml"
-    Phone:
-      $ref: "./schemas/Phone.yaml"
-    PostalAddress:
-      $ref: "./schemas/PostalAddress.yaml"
-    ResponseSharedAutomatedTellerMachinesList:
-      $ref: "./schemas/ResponseSharedAutomatedTellerMachinesList.yaml"
-    SharedAutomatedTellerMachinesBrand:
-      $ref: "./schemas/SharedAutomatedTellerMachinesBrand.yaml"
-    SharedAutomatedTellerMachinesCompanies:
-      $ref: "./schemas/SharedAutomatedTellerMachinesCompanies.yaml"
-    SharedAutomatedTellerMachines:
-      $ref: "./schemas/SharedAutomatedTellerMachines.yaml"
-    SharedAutomatedTellerMachinesServices:
-      $ref: "./schemas/SharedAutomatedTellerMachinesServices.yaml"
-    SharedAutomatedTellerMachinesIdentification:
-      $ref: "./schemas/SharedAutomatedTellerMachinesIdentification.yaml"
-    ResponsePhoneChannelsList:
-      $ref: "./schemas/ResponsePhoneChannelsList.yaml"
-    PhoneChannelsBrand:
-      $ref: "./schemas/PhoneChannelsBrand.yaml"
-    PhoneChannelsCompany:
-      $ref: "./schemas/PhoneChannelsCompany.yaml"
-    PhoneChannel:
-      $ref: "./schemas/PhoneChannel.yaml"
-    PhoneChannelIdentification:
-      $ref: "./schemas/PhoneChannelIdentification.yaml"
-    PhoneChannelPhone:
-      $ref: "./schemas/PhoneChannelPhone.yaml"
-    PhoneChannelService:
-      $ref: "./schemas/PhoneChannelService.yaml"
-    GeographicCoordinates:
-      $ref: "./schemas/GeographicCoordinates.yaml"
+      $ref: ./schemas/BranchService.yaml
+    BranchesBrand:
+      $ref: ./schemas/BranchesBrand.yaml
+    BranchesCompany:
+      $ref: ./schemas/BranchesCompany.yaml
     Brand:
-      $ref: "./schemas/Brand.yaml"
+      $ref: ./schemas/Brand.yaml
     CNPJ:
-      $ref: "./schemas/CNPJ.yaml"
+      $ref: ./schemas/CNPJ.yaml
+    ElectronicChannel:
+      $ref: ./schemas/ElectronicChannel.yaml
+    ElectronicChannelIdentification:
+      $ref: ./schemas/ElectronicChannelIdentification.yaml
+    ElectronicChannelService:
+      $ref: ./schemas/ElectronicChannelService.yaml
+    ElectronicChannelUrl:
+      $ref: ./schemas/ElectronicChannelUrl.yaml
+    ElectronicChannelsBrand:
+      $ref: ./schemas/ElectronicChannelsBrand.yaml
+    ElectronicChannelsCompanies:
+      $ref: ./schemas/ElectronicChannelsCompanies.yaml
+    GeographicCoordinates:
+      $ref: ./schemas/GeographicCoordinates.yaml
     Links:
-      $ref: "./schemas/Links.yaml"
+      $ref: ./schemas/Links.yaml
     Meta:
-      $ref: "./schemas/Meta.yaml"
-    SharedAutomatedTellerMachinesCompany:
-      $ref: "./schemas/SharedAutomatedTellerMachinesCompany.yaml"
+      $ref: ./schemas/Meta.yaml
+    Phone:
+      $ref: ./schemas/Phone.yaml
+    PhoneChannel:
+      $ref: ./schemas/PhoneChannel.yaml
+    PhoneChannelIdentification:
+      $ref: ./schemas/PhoneChannelIdentification.yaml
+    PhoneChannelPhone:
+      $ref: ./schemas/PhoneChannelPhone.yaml
+    PhoneChannelService:
+      $ref: ./schemas/PhoneChannelService.yaml
+    PhoneChannelsBrand:
+      $ref: ./schemas/PhoneChannelsBrand.yaml
+    PhoneChannelsCompany:
+      $ref: ./schemas/PhoneChannelsCompany.yaml
+    PostalAddress:
+      $ref: ./schemas/PostalAddress.yaml
+    ResponseBankingAgentsList:
+      $ref: ./schemas/ResponseBankingAgentsList.yaml
+    ResponseBranchesList:
+      $ref: ./schemas/ResponseBranchesList.yaml
+    ResponseElectronicChannelsList:
+      $ref: ./schemas/ResponseElectronicChannelsList.yaml
+    ResponsePhoneChannelsList:
+      $ref: ./schemas/ResponsePhoneChannelsList.yaml
+    ResponseSharedAutomatedTellerMachinesList:
+      $ref: ./schemas/ResponseSharedAutomatedTellerMachinesList.yaml
+    SharedAutomatedTellerMachines:
+      $ref: ./schemas/SharedAutomatedTellerMachines.yaml
     SharedAutomatedTellerMachinesAvailability:
-      $ref: "./schemas/SharedAutomatedTellerMachinesAvailability.yaml"
+      $ref: ./schemas/SharedAutomatedTellerMachinesAvailability.yaml
+    SharedAutomatedTellerMachinesBrand:
+      $ref: ./schemas/SharedAutomatedTellerMachinesBrand.yaml
+    SharedAutomatedTellerMachinesCompanies:
+      $ref: ./schemas/SharedAutomatedTellerMachinesCompanies.yaml
+    SharedAutomatedTellerMachinesCompany:
+      $ref: ./schemas/SharedAutomatedTellerMachinesCompany.yaml
+    SharedAutomatedTellerMachinesIdentification:
+      $ref: ./schemas/SharedAutomatedTellerMachinesIdentification.yaml
     SharedAutomatedTellerMachinesPostalAddress:
-      $ref: "./schemas/SharedAutomatedTellerMachinesPostalAddress.yaml"
+      $ref: ./schemas/SharedAutomatedTellerMachinesPostalAddress.yaml
+    SharedAutomatedTellerMachinesServices:
+      $ref: ./schemas/SharedAutomatedTellerMachinesServices.yaml
   parameters:
     $ref: "./schemas/parameters.yaml"

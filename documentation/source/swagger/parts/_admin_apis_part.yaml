@@ -8,7 +8,7 @@ info:
 servers:
   - url: 'http://api.banco.com.br/open-banking/admin/v1'
 tags:
-- name: "Metrics"
+  - name: "Metrics"
 paths:
   /metrics:
     get:
@@ -41,29 +41,29 @@ paths:
                 $ref: '#/components/schemas/ResponseMetricsList'
 components:
   schemas:
-    ResponseMetricsList:
-      $ref: "./schemas/ResponseMetricsList.yaml"
     AvailabilityMetrics:
-      $ref: "./schemas/AvailabilityMetrics.yaml"
-    EndpointUptime:
-      $ref: "./schemas/EndpointUptime.yaml"
-    EndpointDowntime:
-      $ref: "./schemas/EndpointDowntime.yaml"
-    InvocationMetrics:
-      $ref: "./schemas/InvocationMetrics.yaml"
+      $ref: ./schemas/AvailabilityMetrics.yaml
     AverageMetrics:
-      $ref: "./schemas/AverageMetrics.yaml"
+      $ref: ./schemas/AverageMetrics.yaml
     AverageTPSMetrics:
-      $ref: "./schemas/AverageTPSMetrics.yaml"
-    PeakTPSMetrics:
-      $ref: "./schemas/PeakTPSMetrics.yaml"
+      $ref: ./schemas/AverageTPSMetrics.yaml
+    EndpointDowntime:
+      $ref: ./schemas/EndpointDowntime.yaml
+    EndpointUptime:
+      $ref: ./schemas/EndpointUptime.yaml
     ErrorMetrics:
-      $ref: "./schemas/ErrorMetrics.yaml"
-    RejectionMetrics:
-      $ref: "./schemas/RejectionMetrics.yaml"
+      $ref: ./schemas/ErrorMetrics.yaml
+    InvocationMetrics:
+      $ref: ./schemas/InvocationMetrics.yaml
     Links:
-      $ref: "./schemas/Links.yaml"
+      $ref: ./schemas/Links.yaml
     Meta:
-      $ref: "./schemas/Meta.yaml"
+      $ref: ./schemas/Meta.yaml
+    PeakTPSMetrics:
+      $ref: ./schemas/PeakTPSMetrics.yaml
+    RejectionMetrics:
+      $ref: ./schemas/RejectionMetrics.yaml
+    ResponseMetricsList:
+      $ref: ./schemas/ResponseMetricsList.yaml
   parameters:
     $ref: "./schemas/parameters.yaml"
