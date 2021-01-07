@@ -14,8 +14,20 @@ paths:
     get:
       tags:
         - Metrics
-      summary: Obtém as métricas de disponibilidade das APIs
-      description: "Obtém as métricas de disponibilidade das APIs"
+      summary: Métricas
+      description: |
+        |Versão|
+        |:-----|
+        |1     |
+
+        ### Visão Geral
+
+        Este *endpoint* possibilita ao diretório consultar estatísticas operacionais das APIs disponibilizadas pelas instituições financeiras, a fim de avaliar a qualidade dos serviços fornecidos ao usuário final.
+
+        ### Especificação em OAS 3.0
+
+        <a href='swagger/swagger_open_banking.yaml'>Download da Especificação (OAS 3.0)</a>
+
       operationId: "getMetrics"
       parameters:
         - $ref: "#/components/parameters/page"
