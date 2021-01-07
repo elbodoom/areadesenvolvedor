@@ -1,0 +1,69 @@
+﻿openapi: 3.0.0
+info:
+  title: APIs Admin do Open Banking Brasil
+  description: As API's administrativas são recursos que podem ser consumidos apenas pelo diretório para avaliação e controle da qualidade dos serviços fornecidos pelas instituições financeiras
+  version: 1.0.0-rc5
+  contact:
+    email: "apiteam@swagger.io"
+servers:
+  - url: 'http://api.banco.com.br/open-banking/admin/v1'
+tags:
+- name: "Metrics"
+paths:
+  /metrics:
+    get:
+      tags:
+        - Metrics
+      summary: Obtém as métricas de disponibilidade das APIs
+      description: "Obtém as métricas de disponibilidade das APIs"
+      operationId: "getMetrics"
+      parameters:
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/pageSize"
+        - in: query
+          name: period
+          schema:
+            type: string
+            enum:
+              - CURRENT
+              - ALL
+          required: false
+          description: |
+            Período a ser consultado
+              * `CURRENT` - Métricas do dia atual.
+              * `ALL` - Métricas de todo o período disponível.
+      responses:
+        '200':
+          description: Dados das métricas
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResponseMetricsList'
+components:
+  schemas:
+    ResponseMetricsList:
+      $ref: "./schemas/ResponseMetricsList.yaml"
+    AvailabilityMetrics:
+      $ref: "./schemas/AvailabilityMetrics.yaml"
+    EndpointUptime:
+      $ref: "./schemas/EndpointUptime.yaml"
+    EndpointDowntime:
+      $ref: "./schemas/EndpointDowntime.yaml"
+    InvocationMetrics:
+      $ref: "./schemas/InvocationMetrics.yaml"
+    AverageMetrics:
+      $ref: "./schemas/AverageMetrics.yaml"
+    AverageTPSMetrics:
+      $ref: "./schemas/AverageTPSMetrics.yaml"
+    PeakTPSMetrics:
+      $ref: "./schemas/PeakTPSMetrics.yaml"
+    ErrorMetrics:
+      $ref: "./schemas/ErrorMetrics.yaml"
+    RejectionMetrics:
+      $ref: "./schemas/RejectionMetrics.yaml"
+    Links:
+      $ref: "./schemas/Links.yaml"
+    Meta:
+      $ref: "./schemas/Meta.yaml"
+  parameters:
+    $ref: "./schemas/parameters.yaml"
